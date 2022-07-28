@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_cliente_perfil"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:src="@mipmap/logo_usuario"></ImageView>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/ic_celular_perfil_cliente" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_correo_perfil_cliente" />
+</LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="216dp"
+            android:layout_height="83dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="texto de prueba"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="12dp"></LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_Email"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:text="texto de prueba"
+                android:textSize="16dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+        <TextView
+            android:id="@+id/tv_Nombre"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="texto de prueba"
+            android:textSize="23dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        ></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Historial de Reservas"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lv_historialReservas"
+            android:layout_width="350dp"
+            android:layout_height="440dp"
+            android:layout_margin="10dp"
+            ></ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

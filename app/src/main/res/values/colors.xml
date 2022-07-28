@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Peachpuff">#ffdab9</color>
+    <color name="Pantone">#f2c6ab</color>
+    <color name="dark_orange">#e79563</color>
+    <color name="light_orange">#ebc8b2</color>
+    <color name="red_orange">#ff4500</color>
+    <color name="medium_cian">#006f9e</color>
+    <color name="negro_barraSuperior">#000000</color>
+    <color name="color_listview">#fff5ec</color>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AllBarber</string>
+    <string name="title_activity_inicio_sesion_cliente">inicio_sesion_cliente</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="CaballerosBarberiaInfo">Caballeros barberia es una barberia chilena fundada
+    en 2019 perteneciente a Santiago de Chile...</string>
+
+    <string name="ShishigangInfo">Shishigang es una barberia chilena fundada
+    en 2016 perteneciente a Santiago de Chile...</string>
+
+    <string name="BarbaNegraInfo">BarbaNegra es una barberia chilena fundada
+    en 2015 perteneciente a Santiago de Chile...</string>
+</resources>

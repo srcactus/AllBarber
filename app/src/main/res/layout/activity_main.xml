@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logotipo"></ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/sesionCliente"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:text="Iniciar sesión Cliente"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_orange"
+            android:shadowColor="@color/red_orange"></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/sesionBarbero"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:text="Iniciar sesión Barbero"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_orange"
+            android:shadowColor="@color/red_orange"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

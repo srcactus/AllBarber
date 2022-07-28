@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color"
+    tools:context=".home_barbero_cambiar_contrasena">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/password"></ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Contraseña actual: "
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="@color/white"
+                android:id="@+id/et_actualPass"
+                android:inputType="textPassword"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Nueva contraseña: "
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="@color/white"
+                android:id="@+id/et_newPass"
+                android:inputType="textPassword"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Confirmar contraseña: "
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:background="@color/white"
+                android:id="@+id/et_confirmarPass"
+                android:inputType="textPassword"></EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cambiarPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Cambiar Contraseña"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_orange"
+            android:shadowColor="@color/red_orange"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

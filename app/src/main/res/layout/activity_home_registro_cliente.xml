@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color"
+    tools:context=".home_registro_cliente">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logotipo"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text=" Email : "
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:id="@+id/mailRegistroCliente"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text=" Contraseña : "
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:id="@+id/passRegistroCliente"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Confirmar contraseña : "
+            android:textSize="13dp"
+            android:textColor="@color/black"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:id="@+id/passConfirmarRegistroCliente"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text=" Nombre : "
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:id="@+id/nombreRegistroCliente"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text=" Telefono : "
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"></TextView>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:id="@+id/telefonoRegistroCliente"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btn_registroCliente"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:text="Registrar"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_orange"
+            android:shadowColor="@color/red_orange"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

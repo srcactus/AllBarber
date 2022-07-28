@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color"
+    tools:context=".home_barbero_agenda">\
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/flecha_izquierda"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_orange"
+            android:shadowColor="@color/red_orange"
+            android:id="@+id/volver"></ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"></LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="Próximas citas:"
+        android:padding="2dp"></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ListView
+            android:id="@+id/citasBarbero"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:background="@color/color_listview"
+            android:divider="@color/black"
+            android:dividerHeight="2dp"
+            android:gravity="center"
+            ></ListView>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No tiene citas proximas."
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:id="@+id/listaVacia"
+        android:visibility="gone"></TextView>
+
+</LinearLayout>

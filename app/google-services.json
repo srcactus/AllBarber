@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "314827576744",
+    "firebase_url": "https://proyectoallbarber-default-rtdb.firebaseio.com",
+    "project_id": "proyectoallbarber",
+    "storage_bucket": "proyectoallbarber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314827576744:android:aa99d9927aabeee3a8b99d",
+        "android_client_info": {
+          "package_name": "com.example.allbarber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314827576744-365mn54n8qb1sqm8q2t7pd97tko8e79n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNY7buG11AdlpubgfR5_UNPViUyT7kdpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314827576744-365mn54n8qb1sqm8q2t7pd97tko8e79n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

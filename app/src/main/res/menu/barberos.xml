@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".home_cliente"
+    >
+
+    <item android:icon="@drawable/ic_mas"
+        android:title="Mas"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/btnInicio"
+                android:icon="@drawable/ic_home"
+                android:title="Inicio"/>
+            <item android:id="@+id/btnPerfil"
+                android:icon="@drawable/ic_perfil"
+                android:title="Perfil"/>
+            <item android:id="@+id/btnEscaneaQr"
+                android:icon="@drawable/ic_qr_codigo"
+                android:title="Escanea codigo QR"/>
+            <item android:id="@+id/btnCerrarSesion"
+                android:icon="@drawable/ic_cerrar_sesion"
+                android:title="Cerrar sesion"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>
